@@ -1,6 +1,6 @@
-import Header from '../Header/Header'
-import Sidebar from '../Sidebar/Sidebar'
-import { Container, SidebarContainer, ContentContainer } from './s_layout'
+import Header from "../Header/Header";
+import Sidebar from "../Sidebar/Sidebar";
+import { Container, SidebarContainer, ContentContainer } from "./s_layout";
 
 const Layout = ({ children }) => {
   return (
@@ -11,13 +11,11 @@ const Layout = ({ children }) => {
           <Sidebar> Sidebar</Sidebar>
         </SidebarContainer>
         <ContentContainer>
-          contentcontainer
           {children}
         </ContentContainer>
       </Container>
-
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

@@ -1,3 +1,4 @@
+
 // Arquivo global do projeto
 import { ThemeProvider } from 'styled-components'
 import GlobalStyle from '../styles/s_global'
