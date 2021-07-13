@@ -1,8 +1,12 @@
-const RecomendCard = () => {
+const RecomendCard = ({recomend}) => {
   return (
-    <div>
-      
-    </div>
+    <Container>
+      <Avatar src={recomend.avatar}></Avatar>
+      <Info>
+        <a> {recomend.title}</a>
+        <span>{recomend.views}</span>
+      </Info>
+    </Container>
   );
 }
 

@@ -5,10 +5,10 @@ import { Container, SidebarContainer, ContentContainer } from "./s_layout";
 const Layout = ({ children }) => {
   return (
     <>
-      <Header> header</Header>
+      <Header />
       <Container>
         <SidebarContainer>
-          <Sidebar> Sidebar</Sidebar>
+          <Sidebar  /> 
         </SidebarContainer>
         <ContentContainer>
           {children}

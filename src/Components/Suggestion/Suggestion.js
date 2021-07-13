@@ -5,6 +5,7 @@ import {
   Icon,
   BoxContainer,
   BoxHeader,
+  ButtonContainer,
   ItemContainer,
   Item,
   ArrowIcon,
@@ -16,6 +17,31 @@ import Button from "../Button/Button";
 import RecomendCard from "../RecomendCard/RecomendCard";
 
 
+const people = [
+  {
+    name:'Neymar Jr',
+    userName:'@neymarjr',
+    avatar: 'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/c8b05bbbeef7e82a82fd32b2f06e858d.jpeg?x-expires=1626289200&x-signature=6zgEtqqn07EoYI4iELvoZRKncvs%3D'
+  },
+  {
+    name:'Isis valverda',
+    userName:'isisval',
+    avatar:'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d3c8dc9464b71ce6ebb7ef94e21fd398~c5_100x100.jpeg?x-expires=1626289200&x-signature=ffYP21bzZkflpoVPsGDZV%2BM4tKU%3D'
+  }
+]
+
+const itens = [
+  {
+    title: 'Woah',
+    views: '12.7 views',
+    avatar: 'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d3c8dc9464b71ce6ebb7ef94e21fd398~c5_100x100.jpeg?x-expires=1626289200&x-signature=ffYP21bzZkflpoVPsGDZV%2BM4tKU%3D'
+  },
+  {
+    title: 'Teste',
+    views: '15.7 views',
+    avatar: 'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d3c8dc9464b71ce6ebb7ef94e21fd398~c5_100x100.jpeg?x-expires=1626289200&x-signature=ffYP21bzZkflpoVPsGDZV%2BM4tKU%3D'
+  }
+]
 
 const Suggestion = () => {
   return (
@@ -33,9 +59,11 @@ const Suggestion = () => {
           {people.map((item, key) => (
             <Item key={key}>
               <User user={item} />
-              <Button fontSize={14} outline>
-                Seguir
-              </Button>
+              <ButtonContainer>
+                <Button fontSize={14} outline>
+                  Seguir
+                </Button>
+              </ButtonContainer>
             </Item>
           ))}
         </ItemContainer>
