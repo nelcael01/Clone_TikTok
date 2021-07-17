@@ -21,12 +21,12 @@ const people = [
   {
     name:'Neymar Jr',
     userName:'@neymarjr',
-    avatar: 'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/c8b05bbbeef7e82a82fd32b2f06e858d.jpeg?x-expires=1626289200&x-signature=6zgEtqqn07EoYI4iELvoZRKncvs%3D'
+    avatar: 'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/c8b05bbbeef7e82a82fd32b2f06e858d.jpeg?x-expires=1626634800&x-signature=8wXnzbwQKdl8t6CRiJy675iNLjY%3D'
   },
   {
     name:'Isis valverda',
     userName:'isisval',
-    avatar:'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d3c8dc9464b71ce6ebb7ef94e21fd398~c5_100x100.jpeg?x-expires=1626289200&x-signature=ffYP21bzZkflpoVPsGDZV%2BM4tKU%3D'
+    avatar:'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d3c8dc9464b71ce6ebb7ef94e21fd398~c5_100x100.jpeg?x-expires=1626634800&x-signature=kmNJA8mXrVG%2BjQRyYQLuXS7eeQ4%3D'
   }
 ]
 
@@ -34,12 +34,12 @@ const itens = [
   {
     title: 'Woah',
     views: '12.7 views',
-    avatar: 'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d3c8dc9464b71ce6ebb7ef94e21fd398~c5_100x100.jpeg?x-expires=1626289200&x-signature=ffYP21bzZkflpoVPsGDZV%2BM4tKU%3D'
+    avatar: 'https://p77-sign-va.tiktokcdn.com/musically-maliva-obj/1624310115338245~c5_100x100.jpeg?x-expires=1626634800&x-signature=dZA5g6cRL%2FXjqZ99kT4sU5L7W%2Bc%3D'
   },
   {
     title: 'Teste',
     views: '15.7 views',
-    avatar: 'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/d3c8dc9464b71ce6ebb7ef94e21fd398~c5_100x100.jpeg?x-expires=1626289200&x-signature=ffYP21bzZkflpoVPsGDZV%2BM4tKU%3D'
+    avatar: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/dee24fba8d5c7e0f6da5c23b857454a1~c5_100x100.jpeg?x-expires=1626634800&x-signature=Pgr7%2FePsbAhf99PFlNEA9DXU%2F90%3D'
   }
 ]
 
@@ -49,7 +49,7 @@ const Suggestion = () => {
       <IconsContainer>
         <Icon src="/images/facebookIcon.svg"></Icon>
         <Icon src="/images/pinterestIcon.svg"></Icon>
-        <Icon src="/images/twitter Icon.svg"></Icon>
+        <Icon src="/images/twitterIcon.svg"></Icon>
       </IconsContainer>
       <BoxContainer>
         <BoxHeader>

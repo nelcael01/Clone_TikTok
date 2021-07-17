@@ -33,7 +33,7 @@ export async function getServerSideProps(context) {
         {title:'#clone'}
       ],
       songName:'Tampa - TampaCurhat',
-      videoURL:'https://v77.tiktokcdn.com/9a8c3400cb9cb78b1be491e85b00c73f/60ee355c/video/tos/useast2a/tos-useast2a-pve-0068/7d32cb0edb014caab9d58b910d1b023a/?a=1233&br=4666&bt=2333&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&l=20210713185234010190189137213401F4&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amdxcjtyc3A6NTMzNzczM0ApNTU7Nzw6NGRmNzU1ZjozZ2dwamYxcHJfcm5gLS1kMTZzczItMF5fMDQuYzIwLzAuXzY6Yw%3D%3D&vl=&vr= ',
+      videoURL:'https://v16m.tiktokcdn.com/957dcf6153b323e24c90046aa74b8a07/60f3841f/video/tos/useast2a/tos-useast2a-ve-0068c002/08168b49328e490ba55a7088b7fbed06/?a=1233&br=1028&bt=514&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Qq.lcEwb_4ka&l=20210717192957010189073152333AAFBE&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amVwbTQ6ZjNrNjMzNzczM0ApOWY6PDs5Mzs3NzZkNTo1ZWcxMS5ocjRvc2tgLS1kMTZzczAvYC8zMC01MTA1NmMuXzE6Yw%3D%3D&vl=&vr=',
       likes:650,
       comments:10,
       replies:50  

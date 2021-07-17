@@ -1,3 +1,4 @@
+import {Container, Avatar, Info} from './s_recomendcard.js'
 const RecomendCard = ({recomend}) => {
   return (
     <Container>

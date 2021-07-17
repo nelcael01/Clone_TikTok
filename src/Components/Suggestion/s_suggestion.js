@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {arrowForwardIos} from 'styled-icons/material'
+// import {arrowForwardIos} from 'styled-icons/material'
 
 export const Container = styled.div`
   flex: 0 0 330px;
